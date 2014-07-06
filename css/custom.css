@@ -1,0 +1,92 @@
+body {
+  font-family: 'Oswald';
+  background-color: transparent;
+      /* Workaround for some mobile browsers */
+    min-height:100%;
+}
+
+.input-group[class*="col-"] {
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+
+html{
+    /* This image will be displayed fullscreen */
+    background:url('/images/peaches.jpg') no-repeat center center;
+  background-attachment: fixed;
+
+    /* Ensure the html element always takes up the full height of the browser window */
+    min-height:100%;
+
+    /* The Magic */
+    background-size:cover;
+}
+
+.navbar-default {
+  padding-top:35px;
+  padding-bottom:60px;
+  background-color: transparent;
+  border-color: transparent;
+  border:none;
+  text-transform: uppercase;
+  margin-bottom:0px;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.box {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  border-width: 5px;
+}
+.navbar-default .navbar-brand {
+color: #fff;
+  padding-right:0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+color: #fff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+color: #ECECEC;
+background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #ececec;
+background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+color: #555;
+background-color: transparent;
+}
+
+.navbar-collapse {
+  border-top:none;
+  box-shadow:none;
+  padding-left:0px;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+color: #ececec;
+background-color: transparent;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+color: #ececec;
+}
+}
+
+
+.block {
+  background-color: rgba(0,0,0,0.2);
+}
