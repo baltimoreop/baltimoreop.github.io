@@ -5,6 +5,10 @@ body {
     min-height:100%;
 }
 
+.description {
+  margin: 7px;
+}
+
 .input-group[class*="col-"] {
     padding-right: 15px;
     padding-left: 15px;
